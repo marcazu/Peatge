@@ -6,13 +6,12 @@ Created on Wed Jun 17 18:35:12 2020
 """
 
 import simpy
-import random
 
 NUM_PEATGES = 2 # numero de peatges actius
 NUM_RODES = [2,4,8]
 PREU_RODES = [6,7,10]
 TEMPS_PAGAMENT = 2 #temps que tarda en realitzar el pagametn un cotxe
-TEMPS_ARRIBADES = 2 # Temps entre arribades de cotxes
+TEMPS_ARRIBADES = 0.5 # Temps entre arribades de cotxes
 
 
 class Peatge(object):
@@ -24,18 +23,18 @@ class Peatge(object):
     
     def pagar(self, numero):
          yield self.env.timeout(TEMPS_PAGAMENT)
-         print("cotxe % realitzant el pagament" % (numero))
+         print("cotxe %s realitzant el pagament" % (numero))
         
 
 def cotxe(env, numero, peatg):
-    print("%s arriba al peatge en temps: %.2f. es disposa a fer cua" % (numero, env.now))
+    print("%s arriba al peatge en temps: %s. es disposa a fer cua" % (numero, env.now))
     with peatg.machine.request() as request:   
         yield request
          
-    print("%s entra al peatge i realitza el pagament a temps: %.2f."(numero, env.now))
+    print("%s entra al peatge i realitza el pagament a temps: %s." % (numero, env.now))
     yield env.process(peatg.pagar(numero))
     
-    print("%s marxa del peatge a temps: %.2f." % (numero, env.now))
+    print("%s marxa del peatge a temps: %s." % (numero, env.now))
     
 def setUp(env, num_peatges, temps_pagament, temps_arribades):
     """crea un peatge amb un nonmbre concret de peatges, amb un temps de pagament
@@ -55,11 +54,11 @@ def setUp(env, num_peatges, temps_pagament, temps_arribades):
             i += 1
             env.process(cotxe(env, "Cotxe %d" % i, peatge))
         except:
-            print("algo pasa")
+            print("linia 51 setUp falla!!!")
   
     
 print("Peatge")
 env = simpy.Environment()
 p = env.process(setUp(env,NUM_PEATGES,TEMPS_PAGAMENT,TEMPS_ARRIBADES))
-env.run(until=20)
+env.run(50)
     
