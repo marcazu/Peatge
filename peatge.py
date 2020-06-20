@@ -25,26 +25,41 @@ class Peatge(object):
         print (num_peatges)
         self.temps_pagament = temps_pagament
     
-    def pagar(self, numero):
-         print("El %s acaba la cua i comença a realitzar el pagametn a temps: %s." % (numero, env.now))
-         #temps que pot tardar una persona a realitzar el pagament
-         factorHuma = random.randrange(10, 30) 
+    def pagar(self, numero, targeta):
+         "Si es paga en targeta es realitza el pagemtn al instant"
          tempsPrevi = env.now
-         yield self.env.timeout(TEMPS_PAGAMENT + factorHuma)
-         tempsPagament = env.now-tempsPrevi
-         print("El %s ha realitzat el pagament en %s segons" % (numero,tempsPagament))
+         factorHuma = random.randrange(10, 30)
+         if(targeta == 0):
+             print("El %s es prepara per fer pagament en efectiu" % (numero))
+             yield self.env.timeout(TEMPS_PAGAMENT + factorHuma)         
+         else:
+             print("El %s es prepara per fer pagament en targeta" % (numero))
+             yield self.env.timeout(TEMPS_PAGAMENT)
+             tempsPagament = env.now-tempsPrevi 
+             maquinaFalla = random.randrange(0, 3)
+             if(maquinaFalla == 0):
+                 "la maquina falla ha de venir un operari a arreglar la maquina"
+                 print("El %s ha tingut un error al realitzar el pagament" % (numero))
+                 print("Un operari està realitzant el pagament")
+                 tempsPreviOperari = env.now
+                 yield self.env.timeout(factorHuma)
+                 print("l'operari ha realitzat el pagament del %s en %s segons" 
+                       % (numero, env.now-tempsPreviOperari))
+                 
+         tempsPagament = env.now-tempsPrevi         
+         print("El %s ha realitzat el pagament correctament en %s segons"
+               % (numero, tempsPagament))
+    
         
 
 def cotxe(env, numero, peatg):
-    tempsIni = env.now
+    targeta =  random.randrange(0, 2)
     print("El %s arriba a la cua del peatge a temps: %s." % (numero, env.now))
     with peatg.maquinaPagament.request() as request:
-        result = yield request
-         
-
-    yield env.process(peatg.pagar(numero))
-    tempsTotal = env.now-tempsIni
-    print("%s marxa del peatge a temps: %s, ha tardat %s segons en completar tot el proces" % (numero, env.now, tempsTotal))
+        yield request         
+        yield env.process(peatg.pagar(numero,targeta))
+    print("El %s marxa del peatge a temps: %s"
+          % (numero, env.now))
     
 def setUp(env, num_peatges, temps_pagament, temps_arribades):
     """crea un peatge amb un nonmbre concret de peatges, amb un temps de pagament
