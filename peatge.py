@@ -10,10 +10,7 @@ import random
 
 """ ----------------------VARIABLES GLOBALS---------------------- """
  
-NUM_PEATGES = 2 # numero de peatges actius
-TEMPS_PAGAMENT = 15 #temps que la maquina tarda en realitzar un pagament i donar el tiquet
-TEMPS_SIMULACIO = 200 #Temps que dura la simulació
-TEMPS_ARRIBADES = 5 #temps entre arribades de cotxes
+
 
 """ ----------------------CODI---------------------- """
 
@@ -40,7 +37,7 @@ class Peatge(object):
              f.write("El %s es prepara per fer pagament en targeta \n" % (numero))
              yield self.env.timeout(TEMPS_PAGAMENT)
              tempsPagament = env.now-tempsPrevi 
-             maquinaFalla = random.randrange(0, 3)
+             maquinaFalla = random.randrange(0, 4)
              if(maquinaFalla == 0):
                  "la maquina falla ha de venir un operari a arreglar la maquina"
                  f.write("El %s ha tingut un error al realitzar el pagament \n" % (numero))
@@ -64,8 +61,8 @@ def cotxe(env, numero, peatg,f):
         yield request         
         f.write("El %s ha fet %s segons de cua. \n" % (numero, env.now-tempsInicial))
         yield env.process(peatg.pagar(numero,targeta,f))
-    f.write("El %s marxa del peatge a temps: %s \n"
-          % (numero, env.now))
+    f.write("El %s marxa del peatge a temps: %s, ha tardat %s en pasar el peatge \n"
+          % (numero, env.now, env.now-tempsInicial))
     
 def setUp(env, num_peatges, temps_pagament, temps_arribades,f):
     """crea un peatge amb un nonmbre concret de peatges, amb un temps de pagament
@@ -83,6 +80,7 @@ def setUp(env, num_peatges, temps_pagament, temps_arribades,f):
     while True:
         try:
             "tarda entre 10 i 30 segons a crea un cotxe de forma aleatoria"
+            
             yield env.timeout(temps_arribades)
             "yield env.timeout(random.randint(t_inter - 2, t_inter + 2))"
             i += 1
@@ -90,12 +88,17 @@ def setUp(env, num_peatges, temps_pagament, temps_arribades,f):
         except:
             print("No fer ni cas a aquesta excepcio!!!")
   
-    
+imput = open("imput.txt","r")
+NUM_PEATGES = int(imput.readline())
+TEMPS_PAGAMENT = int(imput.readline())
+TEMPS_SIMULACIO = int(imput.readline())
+TEMPS_ARRIBADES = int(imput.readline())
+imput.close()
 f = open("output.txt", "w")
 f.write("-----INICI DE LA SIMULACIO-----\n")
 env = simpy.Environment()
 p = env.process(setUp(env,NUM_PEATGES, TEMPS_PAGAMENT, TEMPS_ARRIBADES,f))
-env.run(100)
+env.run(TEMPS_SIMULACIO)
 f.write("-----FI DE LA SIMULACIO-----\n")
 f.close()
 

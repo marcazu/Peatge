@@ -1,0 +1,271 @@
+-----INICI DE LA SIMULACIO-----
+numero de peages activats 5 
+El Cotxe 1 arriba a la cua del peatge a temps: 10. 
+El Cotxe 1 ha fet 0 segons de cua. 
+El Cotxe 1 es prepara per fer pagament en targeta 
+El Cotxe 2 arriba a la cua del peatge a temps: 20. 
+El Cotxe 2 ha fet 0 segons de cua. 
+El Cotxe 2 es prepara per fer pagament en efectiu 
+El Cotxe 1 ha realitzat el pagament correctament en 15 segons 
+El Cotxe 1 marxa del peatge a temps: 25, ha tardat 15 en pasar el peatge 
+El Cotxe 3 arriba a la cua del peatge a temps: 30. 
+El Cotxe 3 ha fet 0 segons de cua. 
+El Cotxe 3 es prepara per fer pagament en targeta 
+El Cotxe 4 arriba a la cua del peatge a temps: 40. 
+El Cotxe 4 ha fet 0 segons de cua. 
+El Cotxe 4 es prepara per fer pagament en efectiu 
+El Cotxe 3 ha realitzat el pagament correctament en 15 segons 
+El Cotxe 3 marxa del peatge a temps: 45, ha tardat 15 en pasar el peatge 
+El Cotxe 5 arriba a la cua del peatge a temps: 50. 
+El Cotxe 5 ha fet 0 segons de cua. 
+El Cotxe 5 es prepara per fer pagament en efectiu 
+El Cotxe 2 ha realitzat el pagament correctament en 32 segons 
+El Cotxe 2 marxa del peatge a temps: 52, ha tardat 32 en pasar el peatge 
+El Cotxe 6 arriba a la cua del peatge a temps: 60. 
+El Cotxe 6 ha fet 0 segons de cua. 
+El Cotxe 6 es prepara per fer pagament en targeta 
+El Cotxe 7 arriba a la cua del peatge a temps: 70. 
+El Cotxe 7 ha fet 0 segons de cua. 
+El Cotxe 7 es prepara per fer pagament en efectiu 
+El Cotxe 6 ha realitzat el pagament correctament en 15 segons 
+El Cotxe 6 marxa del peatge a temps: 75, ha tardat 15 en pasar el peatge 
+El Cotxe 8 arriba a la cua del peatge a temps: 80. 
+El Cotxe 8 ha fet 0 segons de cua. 
+El Cotxe 8 es prepara per fer pagament en targeta 
+El Cotxe 4 ha realitzat el pagament correctament en 44 segons 
+El Cotxe 4 marxa del peatge a temps: 84, ha tardat 44 en pasar el peatge 
+El Cotxe 9 arriba a la cua del peatge a temps: 90. 
+El Cotxe 9 ha fet 0 segons de cua. 
+El Cotxe 9 es prepara per fer pagament en efectiu 
+El Cotxe 5 ha realitzat el pagament correctament en 43 segons 
+El Cotxe 5 marxa del peatge a temps: 93, ha tardat 43 en pasar el peatge 
+El Cotxe 8 ha realitzat el pagament correctament en 15 segons 
+El Cotxe 8 marxa del peatge a temps: 95, ha tardat 15 en pasar el peatge 
+El Cotxe 7 ha realitzat el pagament correctament en 28 segons 
+El Cotxe 7 marxa del peatge a temps: 98, ha tardat 28 en pasar el peatge 
+El Cotxe 10 arriba a la cua del peatge a temps: 100. 
+El Cotxe 10 ha fet 0 segons de cua. 
+El Cotxe 10 es prepara per fer pagament en targeta 
+El Cotxe 11 arriba a la cua del peatge a temps: 110. 
+El Cotxe 11 ha fet 0 segons de cua. 
+El Cotxe 11 es prepara per fer pagament en efectiu 
+El Cotxe 10 ha realitzat el pagament correctament en 15 segons 
+El Cotxe 10 marxa del peatge a temps: 115, ha tardat 15 en pasar el peatge 
+El Cotxe 12 arriba a la cua del peatge a temps: 120. 
+El Cotxe 12 ha fet 0 segons de cua. 
+El Cotxe 12 es prepara per fer pagament en efectiu 
+El Cotxe 13 arriba a la cua del peatge a temps: 130. 
+El Cotxe 13 ha fet 0 segons de cua. 
+El Cotxe 13 es prepara per fer pagament en efectiu 
+El Cotxe 9 ha realitzat el pagament correctament en 42 segons 
+El Cotxe 9 marxa del peatge a temps: 132, ha tardat 42 en pasar el peatge 
+El Cotxe 14 arriba a la cua del peatge a temps: 140. 
+El Cotxe 14 ha fet 0 segons de cua. 
+El Cotxe 14 es prepara per fer pagament en targeta 
+El Cotxe 15 arriba a la cua del peatge a temps: 150. 
+El Cotxe 15 ha fet 0 segons de cua. 
+El Cotxe 15 es prepara per fer pagament en targeta 
+El Cotxe 11 ha realitzat el pagament correctament en 42 segons 
+El Cotxe 11 marxa del peatge a temps: 152, ha tardat 42 en pasar el peatge 
+El Cotxe 14 ha tingut un error al realitzar el pagament 
+Un operari està realitzant el pagament de cotxe Cotxe 14 
+El Cotxe 12 ha realitzat el pagament correctament en 36 segons 
+El Cotxe 12 marxa del peatge a temps: 156, ha tardat 36 en pasar el peatge 
+El Cotxe 16 arriba a la cua del peatge a temps: 160. 
+El Cotxe 16 ha fet 0 segons de cua. 
+El Cotxe 16 es prepara per fer pagament en efectiu 
+El Cotxe 15 ha realitzat el pagament correctament en 15 segons 
+El Cotxe 15 marxa del peatge a temps: 165, ha tardat 15 en pasar el peatge 
+El Cotxe 13 ha realitzat el pagament correctament en 37 segons 
+El Cotxe 13 marxa del peatge a temps: 167, ha tardat 37 en pasar el peatge 
+l'operari ha realitzat el pagament del Cotxe 14 en 15 segons 
+El Cotxe 14 ha realitzat el pagament correctament en 30 segons 
+El Cotxe 17 arriba a la cua del peatge a temps: 170. 
+El Cotxe 14 marxa del peatge a temps: 170, ha tardat 30 en pasar el peatge 
+El Cotxe 17 ha fet 0 segons de cua. 
+El Cotxe 17 es prepara per fer pagament en efectiu 
+El Cotxe 18 arriba a la cua del peatge a temps: 180. 
+El Cotxe 18 ha fet 0 segons de cua. 
+El Cotxe 18 es prepara per fer pagament en targeta 
+El Cotxe 19 arriba a la cua del peatge a temps: 190. 
+El Cotxe 19 ha fet 0 segons de cua. 
+El Cotxe 19 es prepara per fer pagament en targeta 
+El Cotxe 18 ha tingut un error al realitzar el pagament 
+Un operari està realitzant el pagament de cotxe Cotxe 18 
+El Cotxe 20 arriba a la cua del peatge a temps: 200. 
+El Cotxe 20 ha fet 0 segons de cua. 
+El Cotxe 20 es prepara per fer pagament en efectiu 
+El Cotxe 16 ha realitzat el pagament correctament en 41 segons 
+El Cotxe 16 marxa del peatge a temps: 201, ha tardat 41 en pasar el peatge 
+El Cotxe 17 ha realitzat el pagament correctament en 35 segons 
+El Cotxe 19 ha tingut un error al realitzar el pagament 
+Un operari està realitzant el pagament de cotxe Cotxe 19 
+El Cotxe 17 marxa del peatge a temps: 205, ha tardat 35 en pasar el peatge 
+l'operari ha realitzat el pagament del Cotxe 18 en 11 segons 
+El Cotxe 18 ha realitzat el pagament correctament en 26 segons 
+El Cotxe 18 marxa del peatge a temps: 206, ha tardat 26 en pasar el peatge 
+El Cotxe 21 arriba a la cua del peatge a temps: 210. 
+El Cotxe 21 ha fet 0 segons de cua. 
+El Cotxe 21 es prepara per fer pagament en targeta 
+El Cotxe 22 arriba a la cua del peatge a temps: 220. 
+El Cotxe 22 ha fet 0 segons de cua. 
+El Cotxe 22 es prepara per fer pagament en targeta 
+El Cotxe 21 ha realitzat el pagament correctament en 15 segons 
+El Cotxe 21 marxa del peatge a temps: 225, ha tardat 15 en pasar el peatge 
+l'operari ha realitzat el pagament del Cotxe 19 en 21 segons 
+El Cotxe 19 ha realitzat el pagament correctament en 36 segons 
+El Cotxe 19 marxa del peatge a temps: 226, ha tardat 36 en pasar el peatge 
+El Cotxe 23 arriba a la cua del peatge a temps: 230. 
+El Cotxe 23 ha fet 0 segons de cua. 
+El Cotxe 23 es prepara per fer pagament en targeta 
+El Cotxe 22 ha realitzat el pagament correctament en 15 segons 
+El Cotxe 22 marxa del peatge a temps: 235, ha tardat 15 en pasar el peatge 
+El Cotxe 20 ha realitzat el pagament correctament en 36 segons 
+El Cotxe 20 marxa del peatge a temps: 236, ha tardat 36 en pasar el peatge 
+El Cotxe 24 arriba a la cua del peatge a temps: 240. 
+El Cotxe 24 ha fet 0 segons de cua. 
+El Cotxe 24 es prepara per fer pagament en efectiu 
+El Cotxe 23 ha realitzat el pagament correctament en 15 segons 
+El Cotxe 23 marxa del peatge a temps: 245, ha tardat 15 en pasar el peatge 
+El Cotxe 25 arriba a la cua del peatge a temps: 250. 
+El Cotxe 25 ha fet 0 segons de cua. 
+El Cotxe 25 es prepara per fer pagament en targeta 
+El Cotxe 26 arriba a la cua del peatge a temps: 260. 
+El Cotxe 26 ha fet 0 segons de cua. 
+El Cotxe 26 es prepara per fer pagament en efectiu 
+El Cotxe 25 ha tingut un error al realitzar el pagament 
+Un operari està realitzant el pagament de cotxe Cotxe 25 
+El Cotxe 27 arriba a la cua del peatge a temps: 270. 
+El Cotxe 27 ha fet 0 segons de cua. 
+El Cotxe 27 es prepara per fer pagament en efectiu 
+El Cotxe 24 ha realitzat el pagament correctament en 32 segons 
+El Cotxe 24 marxa del peatge a temps: 272, ha tardat 32 en pasar el peatge 
+l'operari ha realitzat el pagament del Cotxe 25 en 10 segons 
+El Cotxe 25 ha realitzat el pagament correctament en 25 segons 
+El Cotxe 25 marxa del peatge a temps: 275, ha tardat 25 en pasar el peatge 
+El Cotxe 28 arriba a la cua del peatge a temps: 280. 
+El Cotxe 28 ha fet 0 segons de cua. 
+El Cotxe 28 es prepara per fer pagament en efectiu 
+El Cotxe 29 arriba a la cua del peatge a temps: 290. 
+El Cotxe 29 ha fet 0 segons de cua. 
+El Cotxe 29 es prepara per fer pagament en targeta 
+El Cotxe 26 ha realitzat el pagament correctament en 38 segons 
+El Cotxe 26 marxa del peatge a temps: 298, ha tardat 38 en pasar el peatge 
+El Cotxe 30 arriba a la cua del peatge a temps: 300. 
+El Cotxe 30 ha fet 0 segons de cua. 
+El Cotxe 30 es prepara per fer pagament en targeta 
+El Cotxe 29 ha realitzat el pagament correctament en 15 segons 
+El Cotxe 29 marxa del peatge a temps: 305, ha tardat 15 en pasar el peatge 
+El Cotxe 31 arriba a la cua del peatge a temps: 310. 
+El Cotxe 31 ha fet 0 segons de cua. 
+El Cotxe 31 es prepara per fer pagament en targeta 
+El Cotxe 28 ha realitzat el pagament correctament en 31 segons 
+El Cotxe 28 marxa del peatge a temps: 311, ha tardat 31 en pasar el peatge 
+El Cotxe 27 ha realitzat el pagament correctament en 43 segons 
+El Cotxe 27 marxa del peatge a temps: 313, ha tardat 43 en pasar el peatge 
+El Cotxe 30 ha realitzat el pagament correctament en 15 segons 
+El Cotxe 30 marxa del peatge a temps: 315, ha tardat 15 en pasar el peatge 
+El Cotxe 32 arriba a la cua del peatge a temps: 320. 
+El Cotxe 32 ha fet 0 segons de cua. 
+El Cotxe 32 es prepara per fer pagament en targeta 
+El Cotxe 31 ha tingut un error al realitzar el pagament 
+Un operari està realitzant el pagament de cotxe Cotxe 31 
+El Cotxe 33 arriba a la cua del peatge a temps: 330. 
+El Cotxe 33 ha fet 0 segons de cua. 
+El Cotxe 33 es prepara per fer pagament en efectiu 
+El Cotxe 32 ha tingut un error al realitzar el pagament 
+Un operari està realitzant el pagament de cotxe Cotxe 32 
+l'operari ha realitzat el pagament del Cotxe 31 en 10 segons 
+El Cotxe 31 ha realitzat el pagament correctament en 25 segons 
+El Cotxe 31 marxa del peatge a temps: 335, ha tardat 25 en pasar el peatge 
+El Cotxe 34 arriba a la cua del peatge a temps: 340. 
+El Cotxe 34 ha fet 0 segons de cua. 
+El Cotxe 34 es prepara per fer pagament en targeta 
+El Cotxe 35 arriba a la cua del peatge a temps: 350. 
+El Cotxe 35 ha fet 0 segons de cua. 
+El Cotxe 35 es prepara per fer pagament en efectiu 
+l'operari ha realitzat el pagament del Cotxe 32 en 17 segons 
+El Cotxe 32 ha realitzat el pagament correctament en 32 segons 
+El Cotxe 32 marxa del peatge a temps: 352, ha tardat 32 en pasar el peatge 
+El Cotxe 34 ha realitzat el pagament correctament en 15 segons 
+El Cotxe 34 marxa del peatge a temps: 355, ha tardat 15 en pasar el peatge 
+El Cotxe 33 ha realitzat el pagament correctament en 27 segons 
+El Cotxe 33 marxa del peatge a temps: 357, ha tardat 27 en pasar el peatge 
+El Cotxe 36 arriba a la cua del peatge a temps: 360. 
+El Cotxe 36 ha fet 0 segons de cua. 
+El Cotxe 36 es prepara per fer pagament en targeta 
+El Cotxe 37 arriba a la cua del peatge a temps: 370. 
+El Cotxe 37 ha fet 0 segons de cua. 
+El Cotxe 37 es prepara per fer pagament en efectiu 
+El Cotxe 36 ha realitzat el pagament correctament en 15 segons 
+El Cotxe 36 marxa del peatge a temps: 375, ha tardat 15 en pasar el peatge 
+El Cotxe 35 ha realitzat el pagament correctament en 27 segons 
+El Cotxe 35 marxa del peatge a temps: 377, ha tardat 27 en pasar el peatge 
+El Cotxe 38 arriba a la cua del peatge a temps: 380. 
+El Cotxe 38 ha fet 0 segons de cua. 
+El Cotxe 38 es prepara per fer pagament en targeta 
+El Cotxe 39 arriba a la cua del peatge a temps: 390. 
+El Cotxe 39 ha fet 0 segons de cua. 
+El Cotxe 39 es prepara per fer pagament en targeta 
+El Cotxe 38 ha tingut un error al realitzar el pagament 
+Un operari està realitzant el pagament de cotxe Cotxe 38 
+El Cotxe 37 ha realitzat el pagament correctament en 30 segons 
+El Cotxe 40 arriba a la cua del peatge a temps: 400. 
+El Cotxe 37 marxa del peatge a temps: 400, ha tardat 30 en pasar el peatge 
+El Cotxe 40 ha fet 0 segons de cua. 
+El Cotxe 40 es prepara per fer pagament en efectiu 
+El Cotxe 39 ha realitzat el pagament correctament en 15 segons 
+El Cotxe 39 marxa del peatge a temps: 405, ha tardat 15 en pasar el peatge 
+l'operari ha realitzat el pagament del Cotxe 38 en 14 segons 
+El Cotxe 38 ha realitzat el pagament correctament en 29 segons 
+El Cotxe 38 marxa del peatge a temps: 409, ha tardat 29 en pasar el peatge 
+El Cotxe 41 arriba a la cua del peatge a temps: 410. 
+El Cotxe 41 ha fet 0 segons de cua. 
+El Cotxe 41 es prepara per fer pagament en targeta 
+El Cotxe 42 arriba a la cua del peatge a temps: 420. 
+El Cotxe 42 ha fet 0 segons de cua. 
+El Cotxe 42 es prepara per fer pagament en targeta 
+El Cotxe 41 ha tingut un error al realitzar el pagament 
+Un operari està realitzant el pagament de cotxe Cotxe 41 
+El Cotxe 43 arriba a la cua del peatge a temps: 430. 
+El Cotxe 43 ha fet 0 segons de cua. 
+El Cotxe 43 es prepara per fer pagament en efectiu 
+El Cotxe 42 ha realitzat el pagament correctament en 15 segons 
+El Cotxe 42 marxa del peatge a temps: 435, ha tardat 15 en pasar el peatge 
+El Cotxe 44 arriba a la cua del peatge a temps: 440. 
+El Cotxe 44 ha fet 0 segons de cua. 
+El Cotxe 44 es prepara per fer pagament en efectiu 
+El Cotxe 40 ha realitzat el pagament correctament en 43 segons 
+l'operari ha realitzat el pagament del Cotxe 41 en 18 segons 
+El Cotxe 41 ha realitzat el pagament correctament en 33 segons 
+El Cotxe 40 marxa del peatge a temps: 443, ha tardat 43 en pasar el peatge 
+El Cotxe 41 marxa del peatge a temps: 443, ha tardat 33 en pasar el peatge 
+El Cotxe 45 arriba a la cua del peatge a temps: 450. 
+El Cotxe 45 ha fet 0 segons de cua. 
+El Cotxe 45 es prepara per fer pagament en targeta 
+El Cotxe 46 arriba a la cua del peatge a temps: 460. 
+El Cotxe 46 ha fet 0 segons de cua. 
+El Cotxe 46 es prepara per fer pagament en targeta 
+El Cotxe 43 ha realitzat el pagament correctament en 34 segons 
+El Cotxe 43 marxa del peatge a temps: 464, ha tardat 34 en pasar el peatge 
+El Cotxe 45 ha realitzat el pagament correctament en 15 segons 
+El Cotxe 45 marxa del peatge a temps: 465, ha tardat 15 en pasar el peatge 
+El Cotxe 47 arriba a la cua del peatge a temps: 470. 
+El Cotxe 47 ha fet 0 segons de cua. 
+El Cotxe 47 es prepara per fer pagament en efectiu 
+El Cotxe 46 ha tingut un error al realitzar el pagament 
+Un operari està realitzant el pagament de cotxe Cotxe 46 
+El Cotxe 48 arriba a la cua del peatge a temps: 480. 
+El Cotxe 48 ha fet 0 segons de cua. 
+El Cotxe 48 es prepara per fer pagament en targeta 
+El Cotxe 44 ha realitzat el pagament correctament en 43 segons 
+El Cotxe 44 marxa del peatge a temps: 483, ha tardat 43 en pasar el peatge 
+l'operari ha realitzat el pagament del Cotxe 46 en 15 segons 
+El Cotxe 46 ha realitzat el pagament correctament en 30 segons 
+El Cotxe 49 arriba a la cua del peatge a temps: 490. 
+El Cotxe 46 marxa del peatge a temps: 490, ha tardat 30 en pasar el peatge 
+El Cotxe 49 ha fet 0 segons de cua. 
+El Cotxe 49 es prepara per fer pagament en targeta 
+El Cotxe 48 ha realitzat el pagament correctament en 15 segons 
+El Cotxe 48 marxa del peatge a temps: 495, ha tardat 15 en pasar el peatge 
+-----FI DE LA SIMULACIO-----
